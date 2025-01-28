@@ -1,5 +1,80 @@
 
 body {
+    width: 100%;
+    margin: 0;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+/* Header - styles */
+header div {
+    display: grid;
+    grid-template-columns: auto 830px 70px 40px 40px auto;
+}
+
+header h1 {
+    grid-column: 2;
+    margin-left: 20px;
+}
+
+header img {
+    grid-column: 3;
+    width: 4.6rem;
+    align-self: center;
+}
+
+header .shop {
+    grid-column: 4;
+    width: 1.8rem;
+}
+
+header .profile {
+    grid-column: 5;
+    width: 2.9rem;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto 130px 130px 130px 590px auto;
+    width: 100vw;
+    margin: 0;
+    background-color: white;
+}
+
+nav a {
+    width: auto;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 15px;
+    font-size: 1.4rem;
+    border-right: solid 1px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+nav > a:hover {
+    background-color: rgb(255, 246, 235);
+}
+
+nav .home {
+    grid-column: 2;
+    border-left: solid 1px;
+}
+
+nav .product {
+    grid-column: 3;
+}
+
+nav .contact {
+    grid-column: 4;
+}
+
+
+
+/* Main - styles */
+main {
     width: 980px;
-    margin: auto;
+    margin: 0;
+    justify-self: center;
 }
