@@ -78,3 +78,13 @@ main {
     margin: 0;
     justify-self: center;
 }
+
+main > div {
+    padding: 10px;
+}
+
+aside {
+    justify-self: end;
+    margin-right: 100px;
+    font-family: serif;
+}
