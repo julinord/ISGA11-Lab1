@@ -79,9 +79,6 @@ main {
     justify-self: center;
 }
 
-main > div {
-    padding: 10px;
-}
 
 aside {
     justify-self: end;
@@ -92,10 +89,26 @@ aside {
 .image-container {
     display: flex;
 }
+
 .image-container img {
     margin: 5px;
 }
+
 .burk {
     width: 60%;
+    height: auto;
+}
+
+
+
+/* Juice - styles */
+
+.juiceMain {
+    display: flex;
+}
+
+.juiceMain img {
+    
+    width: 50%;
     height: auto;
 }
