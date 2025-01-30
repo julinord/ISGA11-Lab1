@@ -113,7 +113,8 @@ aside {
 }
 .faq {
     display: flex;
-    padding: 60px;
+    padding: 40px;
+    text-align: right;
 }
 
 
