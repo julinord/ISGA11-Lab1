@@ -98,3 +98,21 @@ aside {
     width: 60%;
     height: auto;
 }
+.faq {
+    display: flex;
+    padding: 50px;
+}
+
+
+/* Juice - styles */
+
+.juiceMain {
+    display: flex;
+}
+
+.juiceMain img {
+    
+    width: 50%;
+    height: auto;
+}
+
