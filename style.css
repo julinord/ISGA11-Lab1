@@ -97,7 +97,27 @@ aside {
 }
 
 /* Home */
+.homeMain {
+    display: flex;
+    flex-direction: column;
+}
 
+.info {
+    width: 700px;
+    border: solid 2px black;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.info h2 {
+    font-size: 1.9rem;
+}
+
+.info p {
+    font-size: 1.5rem;
+}
 
 /* Products */
 .productMain {
