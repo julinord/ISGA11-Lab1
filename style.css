@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-color: antiquewhite;
     justify-content: center;
+    font-family: "Barlow", serif;
 }
 
 a {
@@ -11,10 +12,12 @@ a {
     color: black;
 }
 
+
+
 /* Header - styles */
 header div {
     display: grid;
-    grid-template-columns: auto 830px 70px 40px 40px auto;
+    grid-template-columns: auto 850px 50px 40px 40px auto;
 }
 
 header h1 {
@@ -25,13 +28,12 @@ header h1 {
 
 header img {
     grid-column: 3;
-    width: 4.6rem;
+    width: 1.8rem;
     align-self: center;
 }
 
 header .shop {
     grid-column: 4;
-    width: 1.8rem;
 }
 
 header .profile {
@@ -41,7 +43,7 @@ header .profile {
 
 nav {
     display: grid;
-    grid-template-columns: auto 130px 130px 130px 590px auto;
+    grid-template-columns: auto 140px 140px 140px 590px auto;
     width: 100vw;
     margin: 0;
     background-color: white;
@@ -88,7 +90,7 @@ main h2 {
 }
 
 main p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     flex-wrap: wrap;
 }
 
@@ -119,6 +121,42 @@ aside {
     font-size: 1.5rem;
 }
 
+.newJuice {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.newJuice img {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.newJuice a {
+    display: inline-block;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(254, 246, 251);
+    font-weight: 500;
+}
+
+.newJuice a:hover {
+    transform: scale(1.03);
+}
+
+.newJuice p {
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.newJuice p:first-of-type {
+    margin-top: 20px;
+}
+
+
 /* Products */
 .productMain {
     display: flex;
@@ -143,6 +181,7 @@ aside {
 
 .produkt:hover {
     transform: scale(1.03);
+    border: 3px purple solid;
 }
 
 .produkt img {
@@ -157,13 +196,6 @@ aside {
 
 
 /* Contact us */
-.image-container {
-    display: flex;
-}
-
-.image-container img {
-    margin: 5px;
-}
 
 .burk {
     width: 60%;
