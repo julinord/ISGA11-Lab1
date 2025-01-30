@@ -99,3 +99,8 @@ aside {
     width: 60%;
     height: auto;
 }
+
+.faq {
+    display: flex;
+    padding: 50px;
+}
