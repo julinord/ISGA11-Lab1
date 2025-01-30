@@ -98,17 +98,3 @@ aside {
     width: 60%;
     height: auto;
 }
-
-
-
-/* Juice - styles */
-
-.juiceMain {
-    display: flex;
-}
-
-.juiceMain img {
-    
-    width: 50%;
-    height: auto;
-}
