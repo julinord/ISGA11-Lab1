@@ -88,3 +88,10 @@ aside {
     margin-right: 100px;
     font-family: serif;
 }
+
+.image-container {
+    display: flex;
+}
+.image-container img {
+    margin: 5px;
+}
