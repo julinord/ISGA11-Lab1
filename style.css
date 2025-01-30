@@ -6,6 +6,11 @@ body {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Header - styles */
 header div {
     display: grid;
@@ -15,6 +20,7 @@ header div {
 header h1 {
     grid-column: 2;
     margin-left: 20px;
+    font-size: 2.5rem;
 }
 
 header img {
@@ -48,8 +54,6 @@ nav a {
     padding: 15px;
     font-size: 1.4rem;
     border-right: solid 1px;
-    text-decoration: none;
-    color: black;
     text-align: center;
 }
 
@@ -72,33 +76,67 @@ nav .contact {
 
 
 
-/* Main - styles */
+/* Main - styles */ 
 main {
     width: 980px;
     margin: 0;
     justify-self: center;
 }
 
-.object {
-    width: auto;
-    border: solid black 2px;
+main h2 {
+    font-size: 1.7rem;
 }
 
-.object img {
-    width: 50%;
-    height: auto;
-}
-
-.object p {
+main p {
     font-size: 1.2rem;
+    flex-wrap: wrap;
 }
 
 aside {
-    justify-self: end;
-    margin-right: 100px;
-    font-family: serif;
+
 }
 
+/* Home */
+
+
+/* Products */
+.productMain {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.productMain > a {
+    display: block;
+    width: 650px;
+    height: auto;
+}
+
+.produkt {
+    width: auto;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(254, 246, 251);
+}
+
+.produkt:hover {
+    transform: scale(1.03);
+}
+
+.produkt img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.produkt h2 {
+    margin-top: 10px;
+} 
+
+
+/* Contact us */
 .image-container {
     display: flex;
 }
