@@ -79,6 +79,19 @@ main {
     justify-self: center;
 }
 
+.object {
+    width: auto;
+    border: solid black 2px;
+}
+
+.object img {
+    width: 50%;
+    height: auto;
+}
+
+.object p {
+    font-size: 1.2rem;
+}
 
 aside {
     justify-self: end;
@@ -115,5 +128,13 @@ aside {
     
     width: 50%;
     height: auto;
+}
+
+.juiceDiv > h2 {
+    width: auto;
+}
+
+.juiceDiv {
+    width: auto;
 }
 
