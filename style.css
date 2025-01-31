@@ -106,7 +106,7 @@ aside {
     position: absolute;
     align-self: flex-end;
     padding-left: 20px;
-    padding-top: 40px;
+    margin-top: 40px;
     border-left: 1px solid black;
 }
 
