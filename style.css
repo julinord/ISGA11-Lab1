@@ -12,18 +12,25 @@ a {
     color: black;
 }
 
+.logotyp {
+    width: 6rem;
+    border-radius: 50px;
+    border: 3px solid white;
+    grid-column: 2;
+}
 
 
 /* Header - styles */
 header div {
     display: grid;
-    grid-template-columns: auto 200px 750px 50px 40px 40px auto;
+    grid-template-columns: auto 100px 750px 50px 40px 40px auto;
 }
 
 header h1 {
     grid-column: 3;
     margin-left: 20px;
     font-size: 2.5rem;
+    align-self: center;
 }
 
 header img {
@@ -33,10 +40,8 @@ header img {
 }
 
 header .logotyp {
-    width: 6rem;
-    border-radius: 50px;
-    grid-column: 2;
-    border: 3px solid white;
+    grid-row: 1;
+    margin: 10px 0;
 }
 
 header .shop {
@@ -53,7 +58,8 @@ nav {
     grid-template-columns: auto 140px 140px 140px 590px auto;
     width: 100vw;
     margin: 0;
-    background-color: white;
+    background-color: rgb(254, 246, 251);
+    border: 2px solid white;
 }
 
 nav a {
@@ -103,11 +109,10 @@ main p {
 
 aside {
     width: 200px;
-    position: absolute;
-    align-self: flex-end;
     padding-left: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-left: 1px solid black;
+    margin-left: 20px;
 }
 
 aside img {
@@ -120,6 +125,11 @@ aside img {
 .homeMain {
     display: flex;
     flex-direction: column;
+}
+
+.homeMain aside {
+    position: absolute;
+    align-self: flex-end;
 }
 
 .info {
@@ -149,6 +159,7 @@ aside img {
     height: auto;
     margin-top: 10px;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .newJuice a {
@@ -177,13 +188,15 @@ aside img {
 
 /* Products */
 .productMain {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 700px 250px;
     padding: 30px;
 }
 
 .productMain > a {
     display: block;
+    grid-column: 1;
+    grid-row: 1;
     width: 650px;
     height: auto;
 }
@@ -212,9 +225,13 @@ aside img {
     margin-top: 10px;
 } 
 
+.productMain aside {
+    grid-column: 2;
+    grid-row: 1;
+}
+
 
 /* Contact us */
-
 .burk {
     width: 60%;
     height: auto;
@@ -227,23 +244,57 @@ aside img {
 
 
 
-/* Juice - styles */
-
-.juiceMain {
+/* Objekt - styles */
+.objektMain {
     display: flex;
 }
 
-.juiceMain img {
-    
-    width: 50%;
+.objektMain img {
+    width: 90%;
     height: auto;
+    border-radius: 25px;
+    margin-bottom: 30px;
 }
 
-.juiceDiv > h2 {
+.objektDiv {
+    width: 700px;
+    margin-top: 60px;
+}
+
+.objektMain .titel {
+    color: rgb(251, 138, 202);
+    width: 100px;
+}
+
+.objektMain table, .objektMain table th, .objektMain table td {
+    border: 1px solid black;
+}
+
+.objektMain table td {
+    text-align: center;
+}
+
+
+
+
+/* Footer - styles */
+footer {
+    height: 20vh;
     width: auto;
+    background-color: rgb(254, 246, 251);
+    border-top: white solid 3px;
+    display: grid;
+    grid-template-columns: auto 200px 750px auto;
 }
 
-.juiceDiv {
-    width: 300px;
+footer .logotyp {
+    width: 15vh;
+    border-radius: 70px;
+    align-self: center;
 }
 
+footer strong {
+    font-size: 1.8rem;
+    grid-column: 3;
+    align-self: center;
+}

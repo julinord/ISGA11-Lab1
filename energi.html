@@ -14,6 +14,7 @@
         <header>
             <div> 
                 <h1>Boostify</h1>
+                <img class="logotyp" src="img/logotyp.webp" alt="logotyp">
                 <img src="img/search.png" alt="Search">
                 <img class="shop" src="img/shopping.png" alt="Shoppingbag">
                 <img class="profile" src="img/profile.png" alt="Profile">
@@ -25,22 +26,88 @@
             </nav>
         </header> 
        
-    
-        <main>
+        <main class="objektMain">
             <div>
                 <h2>Boostify energydrinks</h2>
-                <img src="img/Designer.jpeg">
+                <img src="img/Designer.jpeg" alt="energydrinks">
             </div> 
-            <div>
-                <h3>Our energydrinks...</h3>
-                <p>Experience the luxurious feeling with an energy drink in a bottle</p>
+            <div class="objektDiv">
+                <h3>Experience the luxurious feeling with an energy drink in a bottle</h3>
+            
+                <label><b>Choose Flavour:</b></label><br>
+    
+                <label for="Apple">Apple 50cl</label>
+                <input type="radio" id="Apple" value="Apple" name="Energy">
+                <label for="Pear">Pear 50cl</label>
+                <input type="radio" id="Pear" value="Pear" name="Energy">
+                <label for="Lime">Lime 50cl</label>
+                <input type="radio" id="Lime" value="Lime" name="Energy"><br>
+            
                 <ul>
                     <li>Price: 25 SEK each</li>
                     <li>Caffeine: 180mg</li>
                 </ul>
+                
+                <h4>Nutrition Facts</h4>
+                <table>
+                    <tr>
+                        <th class="titel">Food value</th>
+                        <th class="titel">Amount</th>
+                        <th class="titel">Unit</th>
+                    </tr>
+                    <tr>
+                        <td>carbohydrates</td>
+                        <td>9</td>
+                        <td>gram</td>
+                    </tr>
+                    <tr>
+                        <td>sugars</td>
+                        <td>9</td>
+                        <td>gram</td>
+                    </tr>
+                    <tr>
+                        <td>fiber</td>
+                        <td>0.4</td>
+                        <td>gram</td>
+                    </tr>
+                    <tr>
+                        <td>energy(kcal)</td>
+                        <td>45</td>
+                        <td>kcal</td>
+                    </tr>
+                    <tr>
+                        <td>energy(kj)</td>
+                        <td>180</td>
+                        <td>kj</td>
+                    </tr>
+                    <tr>
+                        <td>fat</td>
+                        <td>0</td>
+                        <td>gram</td>
+                    </tr>
+                    <tr>
+                        <td>protein</td>
+                        <td>0.7</td>
+                        <td>gram</td>
+                    </tr>
+                    <tr>
+                        <td>salt</td>
+                        <td>0</td>
+                        <td>gram</td>
+                    </tr>
+                    <tr>
+                        <td>vitamin c</td>
+                        <td>28</td>
+                        <td>miligram</td>
+                    </tr>
+                </table>
             </div>
         </main>
 
+        <footer>
+            <img class="logotyp" src="img/logotyp.webp" alt="BoostifyLogotyp">
+            <strong><i>Boostify has you covered!</i></strong>
+        </footer>
         
     </body>
 </html>
